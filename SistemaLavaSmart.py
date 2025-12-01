@@ -25,7 +25,7 @@ def crear_lavadora(tipo):
 
     # Tipo de ropa
     while True:
-        ropa = input("Ingrese algunos de estos tipos de ropa separados por coma:\nCamisetas\nPantalon\nToallas\nCalzoncillos\nMedia\n ").lower().strip()
+        ropa = input("Ingrese algunos de estos tipos de ropa separados por coma:\nCamisetas\nPantalon\nToallas\nCalzoncillos\nMedias\n").lower().strip()
 
         if not ropa:
             print("❌ Debes ingresar al menos un tipo de ropa.")
